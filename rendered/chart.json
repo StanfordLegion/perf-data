@@ -1,7 +1,8 @@
 {
 "branches":[
 "dma",
-"master"
+"master",
+"stable"
 ],
 "commits":{
 "dma":[
@@ -37,6 +38,9 @@
 "19fc2ec137824e26c321305c97e3f5e6878a29ad",
 "121c6c8b79aaf859b7476305465ddce7d0275a0d",
 "16ae207cf3675f3b66bf53ca310dcbea688af96a",
+"6ab18353e256f042fc91adaaceb6ae68ee0c91a3"
+],
+"stable":[
 "6ab18353e256f042fc91adaaceb6ae68ee0c91a3"
 ]
 },
@@ -454,6 +458,19 @@
 "6ab18353e256f042fc91adaaceb6ae68ee0c91a3":[
 {
 "measurements":{
+"time_seconds":"3.155"
+},
+"metadata":{
+"argv":"-l 10 -p 2 -npp 2500 -wpp 10000 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"stable",
+"commit":"6ab18353e256f042fc91adaaceb6ae68ee0c91a3",
+"date":"2017-02-14T20:32:15.583721",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"3.167"
 },
 "metadata":{
@@ -475,6 +492,19 @@
 "branch":"master",
 "commit":"6ab18353e256f042fc91adaaceb6ae68ee0c91a3",
 "date":"2017-02-14T14:00:29.094307",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"1.659"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"stable",
+"commit":"6ab18353e256f042fc91adaaceb6ae68ee0c91a3",
+"date":"2017-02-14T20:32:18.889697",
 "host":"n0004.sapling.stanford.edu"
 }
 }
