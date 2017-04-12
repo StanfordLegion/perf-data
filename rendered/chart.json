@@ -784,6 +784,19 @@
 },
 {
 "measurements":{
+"time_seconds":"3.566308"
+},
+"metadata":{
+"argv":"-l 10 -p 2 -npp 2500 -wpp 10000 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"master",
+"commit":"087ec6f68a8f77c63c6312e779b2dbc42f918ac4",
+"date":"2017-04-12T01:01:39.861303",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"1.505739"
 },
 "metadata":{
@@ -792,6 +805,19 @@
 "branch":"master",
 "commit":"087ec6f68a8f77c63c6312e779b2dbc42f918ac4",
 "date":"2017-04-11T23:56:00.226316",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"1.503676"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"master",
+"commit":"087ec6f68a8f77c63c6312e779b2dbc42f918ac4",
+"date":"2017-04-12T01:01:51.238780",
 "host":"n0004.sapling.stanford.edu"
 }
 },
@@ -810,6 +836,19 @@
 },
 {
 "measurements":{
+"time_seconds":"20.589689"
+},
+"metadata":{
+"argv":"pennant.tests/sedovbig3x30/sedovbig.pnt -seq_init 0 -par_init 1 -print_ts 1 -prune 5 -npieces 2 -numpcx 1 -numpcy 2 -ll:csize 8192 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"pennant_fast.rg",
+"branch":"master",
+"commit":"087ec6f68a8f77c63c6312e779b2dbc42f918ac4",
+"date":"2017-04-12T01:02:51.407529",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"3.141"
 },
 "metadata":{
@@ -818,6 +857,32 @@
 "branch":"master",
 "commit":"087ec6f68a8f77c63c6312e779b2dbc42f918ac4",
 "date":"2017-04-11T23:55:31.950792",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"1.500"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"master",
+"commit":"087ec6f68a8f77c63c6312e779b2dbc42f918ac4",
+"date":"2017-04-12T01:01:26.770361",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"3.172"
+},
+"metadata":{
+"argv":"-l 10 -p 2 -npp 2500 -wpp 10000 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"master",
+"commit":"087ec6f68a8f77c63c6312e779b2dbc42f918ac4",
+"date":"2017-04-12T01:01:23.816431",
 "host":"n0004.sapling.stanford.edu"
 }
 },
