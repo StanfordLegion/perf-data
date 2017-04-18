@@ -8417,6 +8417,19 @@
 },
 {
 "measurements":{
+"time_seconds":"7.211041"
+},
+"metadata":{
+"argv":"pennant.tests/sedovbig3x30/sedovbig.pnt -seq_init 0 -par_init 1 -print_ts 1 -prune 5 -npieces 10 -numpcx 1 -numpcy 10 -ll:csize 8192 -ll:cpu 10 -fflow-spmd-shardsize 10",
+"benchmark":"pennant_fast.rg",
+"branch":"master",
+"commit":"651c6e7cf42357a51761edee8fef75c457ced6c4",
+"date":"2017-04-18T04:02:00.544374",
+"host":"n0002.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"7.122533"
 },
 "metadata":{
@@ -8508,6 +8521,19 @@
 },
 {
 "measurements":{
+"time_seconds":"1.560818"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"master",
+"commit":"651c6e7cf42357a51761edee8fef75c457ced6c4",
+"date":"2017-04-18T04:01:16.662895",
+"host":"n0002.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"6.242848"
 },
 "metadata":{
@@ -8516,6 +8542,19 @@
 "branch":"master",
 "commit":"651c6e7cf42357a51761edee8fef75c457ced6c4",
 "date":"2017-04-15T04:01:07.189062",
+"host":"n0002.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"6.886821"
+},
+"metadata":{
+"argv":"-l 10 -p 10 -npp 2500 -wpp 10000 -ll:cpu 10 -fflow-spmd-shardsize 10",
+"benchmark":"circuit_sparse.rg",
+"branch":"master",
+"commit":"651c6e7cf42357a51761edee8fef75c457ced6c4",
+"date":"2017-04-18T04:01:04.636913",
 "host":"n0002.sapling.stanford.edu"
 }
 },
@@ -8560,6 +8599,19 @@
 },
 {
 "measurements":{
+"time_seconds":"1.424"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"master",
+"commit":"651c6e7cf42357a51761edee8fef75c457ced6c4",
+"date":"2017-04-18T04:00:47.092939",
+"host":"n0002.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"7.254"
 },
 "metadata":{
@@ -8594,6 +8646,19 @@
 "branch":"master",
 "commit":"651c6e7cf42357a51761edee8fef75c457ced6c4",
 "date":"2017-04-16T04:00:48.555348",
+"host":"n0002.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"7.253"
+},
+"metadata":{
+"argv":"-l 10 -p 10 -npp 2500 -wpp 10000 -ll:cpu 10",
+"benchmark":"circuit",
+"branch":"master",
+"commit":"651c6e7cf42357a51761edee8fef75c457ced6c4",
+"date":"2017-04-18T04:00:44.109076",
 "host":"n0002.sapling.stanford.edu"
 }
 },
