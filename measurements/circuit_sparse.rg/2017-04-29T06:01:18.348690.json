@@ -1,0 +1,1 @@
+{"measurements": {"time_seconds": "1.403804"}, "metadata": {"benchmark": "circuit_sparse.rg", "argv": ["-l", "10", "-p", "100", "-npp", "2", "-wpp", "4", "-ll:cpu", "2", "-fflow-spmd-shardsize", "2"], "host": "n0004.sapling.stanford.edu", "branch": "docker-snapshot", "date": "2017-04-29T06:01:18.348690", "commit": "7f8d1b992acfef976c4abd9fc5e60bef245d5a3b"}}
