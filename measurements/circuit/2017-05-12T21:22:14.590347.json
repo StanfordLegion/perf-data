@@ -1,0 +1,1 @@
+{"measurements": {"time_seconds": "1.524"}, "metadata": {"benchmark": "circuit", "argv": ["-l", "10", "-p", "100", "-npp", "2", "-wpp", "4", "-ll:cpu", "2"], "host": "n0004.sapling.stanford.edu", "branch": "fix-cmake-gasnet-mpi-compat", "date": "2017-05-12T21:22:14.590347", "commit": "084aa917ba2d4a071a8fa42935bee6552e33adb9"}}
