@@ -41,7 +41,8 @@
 "f41606819eeb611fe73d32ffc637ce41e90ca10d"
 ],
 "docker-snapshot":[
-"7f8d1b992acfef976c4abd9fc5e60bef245d5a3b"
+"7f8d1b992acfef976c4abd9fc5e60bef245d5a3b",
+"3450c30f27dc54f324abb91832194d205fd8a226"
 ],
 "fix-cmake-gasnet-mpi-compat":[
 "084aa917ba2d4a071a8fa42935bee6552e33adb9"
@@ -7236,6 +7237,19 @@
 "3450c30f27dc54f324abb91832194d205fd8a226":[
 {
 "measurements":{
+"time_seconds":"2.22557"
+},
+"metadata":{
+"argv":"-l 10 -p 2 -npp 2500 -wpp 10000 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"docker-snapshot",
+"commit":"3450c30f27dc54f324abb91832194d205fd8a226",
+"date":"2017-05-24T01:27:51.878323",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"2.232031"
 },
 "metadata":{
@@ -7262,6 +7276,32 @@
 },
 {
 "measurements":{
+"time_seconds":"1.51045"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"docker-snapshot",
+"commit":"3450c30f27dc54f324abb91832194d205fd8a226",
+"date":"2017-05-24T01:28:03.785687",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"17.834469"
+},
+"metadata":{
+"argv":"pennant.tests/sedovbig3x30/sedovbig.pnt -seq_init 0 -par_init 1 -print_ts 1 -prune 5 -npieces 2 -numpcx 1 -numpcy 2 -ll:csize 8192 -ll:cpu 2 -fflow-spmd-shardsize 2 -fvectorize-unsafe 1",
+"benchmark":"pennant_fast.rg",
+"branch":"docker-snapshot",
+"commit":"3450c30f27dc54f324abb91832194d205fd8a226",
+"date":"2017-05-24T01:29:07.346622",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"17.752939"
 },
 "metadata":{
@@ -7270,6 +7310,32 @@
 "branch":"master",
 "commit":"3450c30f27dc54f324abb91832194d205fd8a226",
 "date":"2017-05-24T00:19:50.114477",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"3.157"
+},
+"metadata":{
+"argv":"-l 10 -p 2 -npp 2500 -wpp 10000 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"docker-snapshot",
+"commit":"3450c30f27dc54f324abb91832194d205fd8a226",
+"date":"2017-05-24T01:27:37.295302",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"1.671"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"docker-snapshot",
+"commit":"3450c30f27dc54f324abb91832194d205fd8a226",
+"date":"2017-05-24T01:27:40.311657",
 "host":"n0004.sapling.stanford.edu"
 }
 },
