@@ -1,0 +1,1 @@
+{"measurements": {"time_seconds": "3.147"}, "metadata": {"benchmark": "circuit", "argv": ["-l", "10", "-p", "2", "-npp", "2500", "-wpp", "10000", "-ll:cpu", "2"], "host": "n0004.sapling.stanford.edu", "branch": "cmake_defines", "date": "2017-06-06T17:45:22.252093", "commit": "e9e3733688f5a4fb46066beab8da11f4bf60e3c1"}}
