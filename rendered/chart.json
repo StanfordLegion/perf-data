@@ -25147,6 +25147,19 @@
 },
 {
 "measurements":{
+"time_seconds":"1.389416"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"elliott_test_gitlab",
+"commit":"956bea6c96463546a0b2d60b45bcad54e08b3c4d",
+"date":"2017-06-08T02:51:07.731769",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"2.266457"
 },
 "metadata":{
@@ -25173,6 +25186,32 @@
 },
 {
 "measurements":{
+"time_seconds":"2.238422"
+},
+"metadata":{
+"argv":"-l 10 -p 2 -npp 2500 -wpp 10000 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"elliott_test_gitlab",
+"commit":"956bea6c96463546a0b2d60b45bcad54e08b3c4d",
+"date":"2017-06-08T02:50:56.498370",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"17.672749"
+},
+"metadata":{
+"argv":"pennant.tests/sedovbig3x30/sedovbig.pnt -seq_init 0 -par_init 1 -print_ts 1 -prune 5 -npieces 2 -numpcx 1 -numpcy 2 -ll:csize 8192 -ll:cpu 2 -fflow-spmd-shardsize 2 -fvectorize-unsafe 1",
+"benchmark":"pennant_fast.rg",
+"branch":"elliott_test_gitlab",
+"commit":"956bea6c96463546a0b2d60b45bcad54e08b3c4d",
+"date":"2017-06-08T02:52:10.938160",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"17.654496"
 },
 "metadata":{
@@ -25194,6 +25233,19 @@
 "branch":"master",
 "commit":"956bea6c96463546a0b2d60b45bcad54e08b3c4d",
 "date":"2017-06-08T01:41:57.375859",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"1.514"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"elliott_test_gitlab",
+"commit":"956bea6c96463546a0b2d60b45bcad54e08b3c4d",
+"date":"2017-06-08T02:50:43.559824",
 "host":"n0004.sapling.stanford.edu"
 }
 },
@@ -25233,6 +25285,19 @@
 "branch":"master",
 "commit":"956bea6c96463546a0b2d60b45bcad54e08b3c4d",
 "date":"2017-06-08T01:40:26.154344",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"3.159"
+},
+"metadata":{
+"argv":"-l 10 -p 2 -npp 2500 -wpp 10000 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"elliott_test_gitlab",
+"commit":"956bea6c96463546a0b2d60b45bcad54e08b3c4d",
+"date":"2017-06-08T02:50:40.692107",
 "host":"n0004.sapling.stanford.edu"
 }
 },
