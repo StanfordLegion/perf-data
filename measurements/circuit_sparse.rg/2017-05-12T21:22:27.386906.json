@@ -1,1 +1,0 @@
-{"measurements": {"time_seconds": "2.372164"}, "metadata": {"benchmark": "circuit_sparse.rg", "argv": ["-l", "10", "-p", "2", "-npp", "2500", "-wpp", "10000", "-ll:cpu", "2", "-fflow-spmd-shardsize", "2"], "host": "n0004.sapling.stanford.edu", "branch": "fix-cmake-gasnet-mpi-compat", "date": "2017-05-12T21:22:27.386906", "commit": "084aa917ba2d4a071a8fa42935bee6552e33adb9"}}

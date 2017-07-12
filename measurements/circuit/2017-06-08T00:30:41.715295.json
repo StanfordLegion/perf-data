@@ -1,1 +1,0 @@
-{"measurements": {"time_seconds": "3.138"}, "metadata": {"benchmark": "circuit", "argv": ["-l", "10", "-p", "2", "-npp", "2500", "-wpp", "10000", "-ll:cpu", "2"], "host": "n0004.sapling.stanford.edu", "branch": "elliott_test_gitlab", "date": "2017-06-08T00:30:41.715295", "commit": "956bea6c96463546a0b2d60b45bcad54e08b3c4d"}}
