@@ -1,0 +1,1 @@
+{"measurements": {"time_seconds": "1.765"}, "metadata": {"benchmark": "circuit", "argv": ["-l", "10", "-p", "100", "-npp", "2", "-wpp", "4", "-ll:cpu", "2"], "host": "sherlock.stanford.edu", "branch": "master", "date": "2017-09-07T16:18:12.554409", "commit": "243b971713ca1ffdecec9c0fa1d9797ba49ddfbc"}}
