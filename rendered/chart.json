@@ -11645,6 +11645,19 @@
 },
 {
 "measurements":{
+"time_seconds":"13.657848"
+},
+"metadata":{
+"argv":"pennant.tests/sedovbig3x30/sedovbig.pnt -seq_init 0 -par_init 1 -print_ts 1 -prune 5 -npieces 10 -numpcx 1 -numpcy 10 -ll:csize 8192 -ll:cpu 10 -fflow-spmd-shardsize 10 -fvectorize-unsafe 1",
+"benchmark":"pennant_fast.rg",
+"branch":"dma",
+"commit":"2acdc0fd7343ef691f21226f137a9f2b46ecdea2",
+"date":"2017-09-09T03:40:00.658929",
+"host":"n0002.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"13.296918"
 },
 "metadata":{
@@ -11680,6 +11693,19 @@
 "commit":"2acdc0fd7343ef691f21226f137a9f2b46ecdea2",
 "date":"2017-09-08T16:42:52.121530",
 "host":"sherlock.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"0.960101"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"dma",
+"commit":"2acdc0fd7343ef691f21226f137a9f2b46ecdea2",
+"date":"2017-09-09T03:38:59.425511",
+"host":"n0002.sapling.stanford.edu"
 }
 },
 {
@@ -11749,6 +11775,19 @@
 },
 {
 "measurements":{
+"time_seconds":"7.76445"
+},
+"metadata":{
+"argv":"-l 10 -p 10 -npp 2500 -wpp 10000 -ll:cpu 10 -fflow-spmd-shardsize 10",
+"benchmark":"circuit_sparse.rg",
+"branch":"dma",
+"commit":"2acdc0fd7343ef691f21226f137a9f2b46ecdea2",
+"date":"2017-09-09T03:38:47.153902",
+"host":"n0002.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"0.904"
 },
 "metadata":{
@@ -11757,6 +11796,19 @@
 "branch":"dma",
 "commit":"2acdc0fd7343ef691f21226f137a9f2b46ecdea2",
 "date":"2017-09-08T03:38:40.948102",
+"host":"n0002.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"0.908"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"dma",
+"commit":"2acdc0fd7343ef691f21226f137a9f2b46ecdea2",
+"date":"2017-09-09T03:38:27.595083",
 "host":"n0002.sapling.stanford.edu"
 }
 },
@@ -11797,6 +11849,19 @@
 "commit":"2acdc0fd7343ef691f21226f137a9f2b46ecdea2",
 "date":"2017-09-08T16:42:29.765630",
 "host":"sherlock.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"7.667"
+},
+"metadata":{
+"argv":"-l 10 -p 10 -npp 2500 -wpp 10000 -ll:cpu 10",
+"benchmark":"circuit",
+"branch":"dma",
+"commit":"2acdc0fd7343ef691f21226f137a9f2b46ecdea2",
+"date":"2017-09-09T03:38:25.283778",
+"host":"n0002.sapling.stanford.edu"
 }
 },
 {
