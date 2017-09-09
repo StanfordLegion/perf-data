@@ -65532,6 +65532,32 @@
 },
 {
 "measurements":{
+"time_seconds":"3.566"
+},
+"metadata":{
+"argv":"-l 10 -p 18 -npp 2500 -wpp 10000 -ll:cpu 18",
+"benchmark":"circuit",
+"branch":"deppart",
+"commit":"f9901afc2a1bb3172ac52457a2af0643895915b2",
+"date":"2017-09-09T16:55:17.710926",
+"host":"sherlock.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"1.851"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"deppart",
+"commit":"f9901afc2a1bb3172ac52457a2af0643895915b2",
+"date":"2017-09-09T16:55:28.334533",
+"host":"sherlock.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"13.882168"
 },
 "metadata":{
@@ -65584,6 +65610,32 @@
 },
 {
 "measurements":{
+"time_seconds":"13.763866"
+},
+"metadata":{
+"argv":"-l 10 -p 18 -npp 2500 -wpp 10000 -ll:cpu 18 -fflow-spmd-shardsize 18",
+"benchmark":"circuit_sparse.rg",
+"branch":"deppart",
+"commit":"f9901afc2a1bb3172ac52457a2af0643895915b2",
+"date":"2017-09-09T16:55:58.118311",
+"host":"sherlock.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"1.587149"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"deppart",
+"commit":"f9901afc2a1bb3172ac52457a2af0643895915b2",
+"date":"2017-09-09T16:56:12.874341",
+"host":"sherlock.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"3.952338"
 },
 "metadata":{
@@ -65606,6 +65658,19 @@
 "commit":"f9901afc2a1bb3172ac52457a2af0643895915b2",
 "date":"2017-09-09T03:44:10.483655",
 "host":"n0002.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"4.007143"
+},
+"metadata":{
+"argv":"pennant.tests/sedovbig3x30/sedovbig.pnt -seq_init 0 -par_init 1 -print_ts 1 -prune 5 -npieces 18 -numpcx 1 -numpcy 18 -ll:csize 8192 -ll:cpu 18 -fflow-spmd-shardsize 18 -fvectorize-unsafe 1",
+"benchmark":"pennant_fast.rg",
+"branch":"deppart",
+"commit":"f9901afc2a1bb3172ac52457a2af0643895915b2",
+"date":"2017-09-09T16:56:58.833615",
+"host":"sherlock.stanford.edu"
 }
 }
 ],
