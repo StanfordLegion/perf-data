@@ -1,0 +1,1 @@
+{"measurements": {"time_seconds": "1.576992"}, "metadata": {"benchmark": "circuit_sparse.rg", "argv": ["-l", "10", "-p", "100", "-npp", "2", "-wpp", "4", "-ll:cpu", "2", "-fflow-spmd-shardsize", "2"], "host": "sherlock.stanford.edu", "branch": "master", "date": "2017-09-09T16:49:44.256436", "commit": "07a24ac8188f88e8c5e485f6bc3f1526c3ef50f3"}}
