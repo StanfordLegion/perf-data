@@ -20068,6 +20068,19 @@
 },
 {
 "measurements":{
+"time_seconds":"13.304765"
+},
+"metadata":{
+"argv":"pennant.tests/sedovbig3x30/sedovbig.pnt -seq_init 0 -par_init 1 -print_ts 1 -prune 5 -npieces 10 -numpcx 1 -numpcy 10 -ll:csize 8192 -ll:cpu 10 -fflow-spmd-shardsize 10 -fvectorize-unsafe 1",
+"benchmark":"pennant_fast.rg",
+"branch":"dma",
+"commit":"47c8ff9889e0f094158067ffb903e3225d8e7f69",
+"date":"2017-09-12T03:39:37.013860",
+"host":"n0002.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"1.584347"
 },
 "metadata":{
@@ -20094,6 +20107,45 @@
 },
 {
 "measurements":{
+"time_seconds":"0.992764"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"dma",
+"commit":"47c8ff9889e0f094158067ffb903e3225d8e7f69",
+"date":"2017-09-12T03:38:36.337606",
+"host":"n0002.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"6.228425"
+},
+"metadata":{
+"argv":"-l 10 -p 10 -npp 2500 -wpp 10000 -ll:cpu 10 -fflow-spmd-shardsize 10",
+"benchmark":"circuit_sparse.rg",
+"branch":"dma",
+"commit":"47c8ff9889e0f094158067ffb903e3225d8e7f69",
+"date":"2017-09-12T03:38:23.715659",
+"host":"n0002.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"8.551"
+},
+"metadata":{
+"argv":"-l 10 -p 10 -npp 2500 -wpp 10000 -ll:cpu 10",
+"benchmark":"circuit",
+"branch":"dma",
+"commit":"47c8ff9889e0f094158067ffb903e3225d8e7f69",
+"date":"2017-09-12T03:38:03.519082",
+"host":"n0002.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"3.616"
 },
 "metadata":{
@@ -20116,6 +20168,19 @@
 "commit":"47c8ff9889e0f094158067ffb903e3225d8e7f69",
 "date":"2017-09-11T17:10:25.396388",
 "host":"sherlock.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"0.891"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"dma",
+"commit":"47c8ff9889e0f094158067ffb903e3225d8e7f69",
+"date":"2017-09-12T03:38:06.323779",
+"host":"n0002.sapling.stanford.edu"
 }
 }
 ],
