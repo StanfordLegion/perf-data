@@ -72311,6 +72311,32 @@
 "f6b9092975abba4bba94dfe2eeab7a152dfdeba0":[
 {
 "measurements":{
+"time_seconds":"3.518"
+},
+"metadata":{
+"argv":"-l 10 -p 18 -npp 2500 -wpp 10000 -ll:cpu 18",
+"benchmark":"circuit",
+"branch":"deppart",
+"commit":"f6b9092975abba4bba94dfe2eeab7a152dfdeba0",
+"date":"2017-09-21T10:08:10.611157",
+"host":"sherlock.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"1.912"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"deppart",
+"commit":"f6b9092975abba4bba94dfe2eeab7a152dfdeba0",
+"date":"2017-09-21T10:08:21.473793",
+"host":"sherlock.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"7.087"
 },
 "metadata":{
@@ -72337,6 +72363,32 @@
 },
 {
 "measurements":{
+"time_seconds":"13.779375"
+},
+"metadata":{
+"argv":"-l 10 -p 18 -npp 2500 -wpp 10000 -ll:cpu 18 -fflow-spmd-shardsize 18",
+"benchmark":"circuit_sparse.rg",
+"branch":"deppart",
+"commit":"f6b9092975abba4bba94dfe2eeab7a152dfdeba0",
+"date":"2017-09-21T10:08:50.375245",
+"host":"sherlock.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"1.551857"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"deppart",
+"commit":"f6b9092975abba4bba94dfe2eeab7a152dfdeba0",
+"date":"2017-09-21T10:09:06.216040",
+"host":"sherlock.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"11.730195"
 },
 "metadata":{
@@ -72359,6 +72411,19 @@
 "commit":"f6b9092975abba4bba94dfe2eeab7a152dfdeba0",
 "date":"2017-09-21T14:31:33.019318",
 "host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"3.922297"
+},
+"metadata":{
+"argv":"pennant.tests/sedovbig3x30/sedovbig.pnt -seq_init 0 -par_init 1 -print_ts 1 -prune 5 -npieces 18 -numpcx 1 -numpcy 18 -ll:csize 8192 -ll:cpu 18 -fflow-spmd-shardsize 18 -fvectorize-unsafe 1",
+"benchmark":"pennant_fast.rg",
+"branch":"deppart",
+"commit":"f6b9092975abba4bba94dfe2eeab7a152dfdeba0",
+"date":"2017-09-21T10:09:52.278772",
+"host":"sherlock.stanford.edu"
 }
 },
 {
