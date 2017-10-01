@@ -22645,6 +22645,32 @@
 },
 {
 "measurements":{
+"time_seconds":"3.588"
+},
+"metadata":{
+"argv":"-l 10 -p 18 -npp 2500 -wpp 10000 -ll:cpu 18",
+"benchmark":"circuit",
+"branch":"deppart",
+"commit":"44003f78086665a1be2794ce4cd65f4c166fd0ef",
+"date":"2017-10-01T11:34:50.502983",
+"host":"sherlock.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"1.555"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"deppart",
+"commit":"44003f78086665a1be2794ce4cd65f4c166fd0ef",
+"date":"2017-10-01T11:35:00.987826",
+"host":"sherlock.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"13.791141"
 },
 "metadata":{
@@ -22931,6 +22957,32 @@
 },
 {
 "measurements":{
+"time_seconds":"14.073802"
+},
+"metadata":{
+"argv":"-l 10 -p 18 -npp 2500 -wpp 10000 -ll:cpu 18 -fflow-spmd-shardsize 18",
+"benchmark":"circuit_sparse.rg",
+"branch":"deppart",
+"commit":"44003f78086665a1be2794ce4cd65f4c166fd0ef",
+"date":"2017-10-01T11:35:29.175012",
+"host":"sherlock.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"1.598739"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"deppart",
+"commit":"44003f78086665a1be2794ce4cd65f4c166fd0ef",
+"date":"2017-10-01T11:35:44.933972",
+"host":"sherlock.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"3.997832"
 },
 "metadata":{
@@ -23069,6 +23121,19 @@
 "branch":"deppart",
 "commit":"44003f78086665a1be2794ce4cd65f4c166fd0ef",
 "date":"2017-09-30T11:28:25.615080",
+"host":"sherlock.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"3.958581"
+},
+"metadata":{
+"argv":"pennant.tests/sedovbig3x30/sedovbig.pnt -seq_init 0 -par_init 1 -print_ts 1 -prune 5 -npieces 18 -numpcx 1 -numpcy 18 -ll:csize 8192 -ll:cpu 18 -fflow-spmd-shardsize 18 -fvectorize-unsafe 1",
+"benchmark":"pennant_fast.rg",
+"branch":"deppart",
+"commit":"44003f78086665a1be2794ce4cd65f4c166fd0ef",
+"date":"2017-10-01T11:36:31.323226",
 "host":"sherlock.stanford.edu"
 }
 }
