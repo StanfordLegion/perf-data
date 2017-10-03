@@ -1,0 +1,1 @@
+{"measurements": {"time_seconds": "7.076"}, "metadata": {"benchmark": "circuit", "argv": ["-l", "10", "-p", "2", "-npp", "2500", "-wpp", "10000", "-ll:cpu", "2"], "host": "n0004.sapling.stanford.edu", "branch": "docker-snapshot", "date": "2017-10-03T15:03:42.657046", "commit": "602021977a297721278c45303956adcbc50cc943"}}
