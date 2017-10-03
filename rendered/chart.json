@@ -4,6 +4,7 @@
 "python-oldpart",
 "cmake",
 "performance_test",
+"docker-snapshot",
 "legion-17.08.0",
 "python",
 "oldpart",
@@ -304,6 +305,9 @@
 "3ab3c1b2ef8ed173aa21ed0713a81f6316688580",
 "47c8ff9889e0f094158067ffb903e3225d8e7f69",
 "67966829d94f9c9f83c41b55d93a084355b1368c"
+],
+"docker-snapshot":[
+"84891519eac05414f6c962e2d417ca79fa3067b9"
 ],
 "legion-17.02.0":[
 "6c6ad799adc1d2bb4f0fc26a60a6f7ebe8b5a582"
@@ -45452,6 +45456,19 @@
 "84891519eac05414f6c962e2d417ca79fa3067b9":[
 {
 "measurements":{
+"time_seconds":"1.042025"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"docker-snapshot",
+"commit":"84891519eac05414f6c962e2d417ca79fa3067b9",
+"date":"2017-10-03T06:16:29.419914",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"11.595766"
 },
 "metadata":{
@@ -45478,6 +45495,19 @@
 },
 {
 "measurements":{
+"time_seconds":"12.984328"
+},
+"metadata":{
+"argv":"-l 10 -p 2 -npp 2500 -wpp 10000 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"docker-snapshot",
+"commit":"84891519eac05414f6c962e2d417ca79fa3067b9",
+"date":"2017-10-03T06:16:16.961934",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"23.520273"
 },
 "metadata":{
@@ -45491,6 +45521,19 @@
 },
 {
 "measurements":{
+"time_seconds":"32.426608"
+},
+"metadata":{
+"argv":"pennant.tests/sedovbig3x30/sedovbig.pnt -seq_init 0 -par_init 1 -print_ts 1 -prune 5 -npieces 2 -numpcx 1 -numpcy 2 -ll:csize 8192 -ll:cpu 2 -fflow-spmd-shardsize 2 -fvectorize-unsafe 1",
+"benchmark":"pennant_fast.rg",
+"branch":"docker-snapshot",
+"commit":"84891519eac05414f6c962e2d417ca79fa3067b9",
+"date":"2017-10-03T06:17:56.286159",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"1.257"
 },
 "metadata":{
@@ -45499,6 +45542,32 @@
 "branch":"master",
 "commit":"84891519eac05414f6c962e2d417ca79fa3067b9",
 "date":"2017-10-03T05:44:32.213723",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"1.040"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"docker-snapshot",
+"commit":"84891519eac05414f6c962e2d417ca79fa3067b9",
+"date":"2017-10-03T06:15:52.597873",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"3.234"
+},
+"metadata":{
+"argv":"-l 10 -p 2 -npp 2500 -wpp 10000 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"docker-snapshot",
+"commit":"84891519eac05414f6c962e2d417ca79fa3067b9",
+"date":"2017-10-03T06:15:48.667878",
 "host":"n0004.sapling.stanford.edu"
 }
 },
