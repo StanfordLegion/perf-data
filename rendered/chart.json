@@ -1067,7 +1067,8 @@
 "b95e55149d4abdfb5cad482337ff5952e5cb0402",
 "ab66b6d679816e7ab732966a3469c123eecf766a",
 "3e928fb7c6e2897d4bfe9cbe59e22c7721098427",
-"f3621e221b89f461477b6b144941c68f3d63b2b0"
+"f3621e221b89f461477b6b144941c68f3d63b2b0",
+"57365ea6e9dcf61cfc2890f4cf16d5f9c7b7b5bb"
 ],
 "python-oldpart":[
 "7ff452836277fa9ac94f48fdbad8823f71b4e569"
@@ -29758,6 +29759,32 @@
 },
 {
 "measurements":{
+"time_seconds":"1.198979"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"python",
+"commit":"57365ea6e9dcf61cfc2890f4cf16d5f9c7b7b5bb",
+"date":"2017-10-06T20:45:29.126670",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"11.598303"
+},
+"metadata":{
+"argv":"-l 10 -p 2 -npp 2500 -wpp 10000 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"python",
+"commit":"57365ea6e9dcf61cfc2890f4cf16d5f9c7b7b5bb",
+"date":"2017-10-06T20:45:16.650200",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"11.585338"
 },
 "metadata":{
@@ -29784,6 +29811,19 @@
 },
 {
 "measurements":{
+"time_seconds":"48.810623"
+},
+"metadata":{
+"argv":"pennant.tests/sedovbig3x30/sedovbig.pnt -seq_init 0 -par_init 1 -print_ts 1 -prune 5 -npieces 2 -numpcx 1 -numpcy 2 -ll:csize 8192 -ll:cpu 2 -fflow-spmd-shardsize 2 -fvectorize-unsafe 1",
+"benchmark":"pennant_fast.rg",
+"branch":"python",
+"commit":"57365ea6e9dcf61cfc2890f4cf16d5f9c7b7b5bb",
+"date":"2017-10-06T20:47:17.920678",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"3.266"
 },
 "metadata":{
@@ -29797,6 +29837,19 @@
 },
 {
 "measurements":{
+"time_seconds":"1.063"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"python",
+"commit":"57365ea6e9dcf61cfc2890f4cf16d5f9c7b7b5bb",
+"date":"2017-10-06T20:44:54.340298",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"1.107"
 },
 "metadata":{
@@ -29805,6 +29858,19 @@
 "branch":"master",
 "commit":"57365ea6e9dcf61cfc2890f4cf16d5f9c7b7b5bb",
 "date":"2017-10-06T19:03:59.286063",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"3.252"
+},
+"metadata":{
+"argv":"-l 10 -p 2 -npp 2500 -wpp 10000 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"python",
+"commit":"57365ea6e9dcf61cfc2890f4cf16d5f9c7b7b5bb",
+"date":"2017-10-06T20:44:50.561471",
 "host":"n0004.sapling.stanford.edu"
 }
 }
