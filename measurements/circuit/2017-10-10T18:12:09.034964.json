@@ -1,0 +1,1 @@
+{"measurements": {"time_seconds": "1.207"}, "metadata": {"benchmark": "circuit", "argv": ["-l", "10", "-p", "100", "-npp", "2", "-wpp", "4", "-ll:cpu", "2"], "host": "n0004.sapling.stanford.edu", "branch": "reenble-hdf-tests", "date": "2017-10-10T18:12:09.034964", "commit": "c26ac2a2c17763b56c106fa294658bb0cdf5010b"}}
