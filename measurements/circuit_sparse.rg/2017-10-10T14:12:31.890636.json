@@ -1,0 +1,1 @@
+{"measurements": {"time_seconds": "11.589491"}, "metadata": {"benchmark": "circuit_sparse.rg", "argv": ["-l", "10", "-p", "2", "-npp", "2500", "-wpp", "10000", "-ll:cpu", "2", "-fflow-spmd-shardsize", "2"], "host": "n0004.sapling.stanford.edu", "branch": "reenble-hdf-tests", "date": "2017-10-10T14:12:31.890636", "commit": "3b6798f62113e80c27993e8eec735cf628670f45"}}
