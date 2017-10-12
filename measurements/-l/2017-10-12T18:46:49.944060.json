@@ -1,0 +1,1 @@
+{"measurements": {"time_seconds": "337.20616"}, "metadata": {"benchmark": "-l", "argv": ["10", "-p", "12", "-npp", "2500", "-wpp", "10000", "-ll:cpu", "12", "-fflow-spmd-shardsize", "12"], "host": "titan.ccs.ornl.gov", "branch": "performance_test", "date": "2017-10-12T18:46:49.944060", "commit": "5f719d3ec05fb5c3c1aef063d2483b594b7fdf69"}}
