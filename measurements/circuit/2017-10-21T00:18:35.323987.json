@@ -1,0 +1,1 @@
+{"measurements": {"time_seconds": "3.240"}, "metadata": {"benchmark": "circuit", "argv": ["-l", "10", "-p", "2", "-npp", "2500", "-wpp", "10000", "-ll:cpu", "2"], "host": "n0004.sapling.stanford.edu", "branch": "master", "date": "2017-10-21T00:18:35.323987", "commit": "8821eff859da04e26623d5a7a5dcf4d12b0ca8a6"}}
