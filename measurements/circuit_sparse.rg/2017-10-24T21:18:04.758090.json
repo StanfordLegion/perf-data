@@ -1,0 +1,1 @@
+{"measurements": {"time_seconds": "1.083874"}, "metadata": {"benchmark": "circuit_sparse.rg", "argv": ["-l", "10", "-p", "100", "-npp", "2", "-wpp", "4", "-ll:cpu", "2", "-fflow-spmd-shardsize", "2"], "host": "n0004.sapling.stanford.edu", "branch": "cmake_gasnet", "date": "2017-10-24T21:18:04.758090", "commit": "6b7af1d06cad67f2d5f2ef8c1a3ed882d5a481de"}}
