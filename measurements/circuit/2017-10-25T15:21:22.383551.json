@@ -1,0 +1,1 @@
+{"measurements": {"time_seconds": "3.243"}, "metadata": {"benchmark": "circuit", "argv": ["-l", "10", "-p", "2", "-npp", "2500", "-wpp", "10000", "-ll:cpu", "2"], "host": "n0004.sapling.stanford.edu", "branch": "cmake_gasnet", "date": "2017-10-25T15:21:22.383551", "commit": "b248633c02f72efbeacdc33d9a35b39c10a121f9"}}
