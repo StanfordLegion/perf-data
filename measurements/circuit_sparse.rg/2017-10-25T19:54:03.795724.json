@@ -1,0 +1,1 @@
+{"measurements": {"time_seconds": "0.631319"}, "metadata": {"benchmark": "circuit_sparse.rg", "argv": ["-l", "10", "-p", "100", "-npp", "2", "-wpp", "4", "-ll:cpu", "2", "-fflow-spmd-shardsize", "2"], "host": "n0004.sapling.stanford.edu", "branch": "tracing-pldi17", "date": "2017-10-25T19:54:03.795724", "commit": "7f1a7c8928034e37a1ce816aec2e622eed61355e"}}
