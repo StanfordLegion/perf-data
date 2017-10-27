@@ -62524,6 +62524,19 @@
 "9128ab295a3cc5a70f1c9288459f28b0da0ce648":[
 {
 "measurements":{
+"time_seconds":"12.938871"
+},
+"metadata":{
+"argv":"-seq_init 0 -par_init 1 -print_ts 1 -prune 5 -npieces 24 -numpcx 1 -numpcy 24 -ll:csize 8192 -ll:cpu 12 -fflow-spmd-shardsize 12 -fvectorize-unsafe 1",
+"benchmark":"sedovbig.pnt",
+"branch":"performance_test",
+"commit":"9128ab295a3cc5a70f1c9288459f28b0da0ce648",
+"date":"2017-10-27T14:26:30.553321",
+"host":"titan.ccs.ornl.gov"
+}
+},
+{
+"measurements":{
 "time_seconds":"11.776844"
 },
 "metadata":{
@@ -62532,6 +62545,32 @@
 "branch":"performance_test",
 "commit":"9128ab295a3cc5a70f1c9288459f28b0da0ce648",
 "date":"2017-10-27T14:14:49.594504",
+"host":"titan.ccs.ornl.gov"
+}
+},
+{
+"measurements":{
+"time_seconds":"1.721"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"performance_test",
+"commit":"9128ab295a3cc5a70f1c9288459f28b0da0ce648",
+"date":"2017-10-27T14:22:51.878034",
+"host":"titan.ccs.ornl.gov"
+}
+},
+{
+"measurements":{
+"time_seconds":"35.395"
+},
+"metadata":{
+"argv":"-l 10 -p 24 -npp 2500 -wpp 10000 -ll:cpu 12",
+"benchmark":"circuit",
+"branch":"performance_test",
+"commit":"9128ab295a3cc5a70f1c9288459f28b0da0ce648",
+"date":"2017-10-27T14:21:08.114351",
 "host":"titan.ccs.ornl.gov"
 }
 },
@@ -62558,6 +62597,32 @@
 "branch":"performance_test",
 "commit":"9128ab295a3cc5a70f1c9288459f28b0da0ce648",
 "date":"2017-10-27T14:09:55.140000",
+"host":"titan.ccs.ornl.gov"
+}
+},
+{
+"measurements":{
+"time_seconds":"2.291867"
+},
+"metadata":{
+"argv":"10 -p 100 -npp 2 -wpp 4 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"-l",
+"branch":"performance_test",
+"commit":"9128ab295a3cc5a70f1c9288459f28b0da0ce648",
+"date":"2017-10-27T14:26:06.540015",
+"host":"titan.ccs.ornl.gov"
+}
+},
+{
+"measurements":{
+"time_seconds":"61.966259"
+},
+"metadata":{
+"argv":"10 -p 24 -npp 2500 -wpp 10000 -ll:cpu 12 -fflow-spmd-shardsize 12",
+"benchmark":"-l",
+"branch":"performance_test",
+"commit":"9128ab295a3cc5a70f1c9288459f28b0da0ce648",
+"date":"2017-10-27T14:25:58.494311",
 "host":"titan.ccs.ornl.gov"
 }
 },
