@@ -1,0 +1,1 @@
+{"measurements": {"time_seconds": "3.207"}, "metadata": {"benchmark": "circuit", "argv": ["-l", "10", "-p", "2", "-npp", "2500", "-wpp", "10000", "-ll:cpu", "2"], "host": "n0004.sapling.stanford.edu", "branch": "tracing-pldi17", "date": "2017-10-27T20:57:46.573140", "commit": "77123a842bb860c6dab1e045cacc4bd3d2048696"}}
