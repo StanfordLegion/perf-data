@@ -78083,6 +78083,19 @@
 "a8bbb217b29155137cb5048f4971e82eb8e79590":[
 {
 "measurements":{
+"time_seconds":"9.584763"
+},
+"metadata":{
+"argv":"pennant.tests/sedovbig3x30/sedovbig.pnt -seq_init 0 -par_init 1 -print_ts 1 -prune 5 -npieces 10 -numpcx 1 -numpcy 10 -ll:csize 8192 -ll:cpu 10 -fflow-spmd-shardsize 10 -fvectorize-unsafe 1",
+"benchmark":"pennant_fast.rg",
+"branch":"master",
+"commit":"a8bbb217b29155137cb5048f4971e82eb8e79590",
+"date":"2017-11-17T03:32:40.067098",
+"host":"n0002.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"9.558863"
 },
 "metadata":{
@@ -78174,6 +78187,32 @@
 },
 {
 "measurements":{
+"time_seconds":"23.89272"
+},
+"metadata":{
+"argv":"-l 10 -p 10 -npp 2500 -wpp 10000 -ll:cpu 10 -fflow-spmd-shardsize 10",
+"benchmark":"circuit_sparse.rg",
+"branch":"master",
+"commit":"a8bbb217b29155137cb5048f4971e82eb8e79590",
+"date":"2017-11-17T03:31:28.989121",
+"host":"n0002.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"1.346496"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"master",
+"commit":"a8bbb217b29155137cb5048f4971e82eb8e79590",
+"date":"2017-11-17T03:31:43.151645",
+"host":"n0002.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"1.110933"
 },
 "metadata":{
@@ -78252,6 +78291,19 @@
 },
 {
 "measurements":{
+"time_seconds":"0.845"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"master",
+"commit":"a8bbb217b29155137cb5048f4971e82eb8e79590",
+"date":"2017-11-17T03:30:52.148428",
+"host":"n0002.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"0.873"
 },
 "metadata":{
@@ -78274,6 +78326,19 @@
 "commit":"a8bbb217b29155137cb5048f4971e82eb8e79590",
 "date":"2017-11-14T07:49:26.678772",
 "host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"6.818"
+},
+"metadata":{
+"argv":"-l 10 -p 10 -npp 2500 -wpp 10000 -ll:cpu 10",
+"benchmark":"circuit",
+"branch":"master",
+"commit":"a8bbb217b29155137cb5048f4971e82eb8e79590",
+"date":"2017-11-17T03:30:43.875013",
+"host":"n0002.sapling.stanford.edu"
 }
 },
 {
