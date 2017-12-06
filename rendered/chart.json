@@ -1246,7 +1246,8 @@
 "1f94c1c218ce879333296ce9a6195c544ce47104",
 "918eace0929a5c6c2dfa169765f051eb0f8f4db3",
 "f52503dbb7618778b180514ca0a3ca0b4900758e",
-"0243e628815daf112e2afba72a82dfd948261c40"
+"0243e628815daf112e2afba72a82dfd948261c40",
+"3db013fbd0c49774bddd0a5e1d880e6ecacb985b"
 ],
 "memoize":[
 "163a65ba4ba11761eac5b7b3c2064a97ab80511c",
@@ -28806,6 +28807,32 @@
 "3db013fbd0c49774bddd0a5e1d880e6ecacb985b":[
 {
 "measurements":{
+"time_seconds":"15.707548"
+},
+"metadata":{
+"argv":"-l 10 -p 2 -npp 2500 -wpp 10000 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"master",
+"commit":"3db013fbd0c49774bddd0a5e1d880e6ecacb985b",
+"date":"2017-12-06T02:21:22.025386",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"1.215193"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"master",
+"commit":"3db013fbd0c49774bddd0a5e1d880e6ecacb985b",
+"date":"2017-12-06T02:21:34.698683",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
 "time_seconds":"14.048361"
 },
 "metadata":{
@@ -28827,6 +28854,19 @@
 "branch":"docker-snapshot",
 "commit":"3db013fbd0c49774bddd0a5e1d880e6ecacb985b",
 "date":"2017-12-06T01:25:22.565102",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"23.869714"
+},
+"metadata":{
+"argv":"pennant.tests/sedovbig3x30/sedovbig.pnt -seq_init 0 -par_init 1 -print_ts 1 -prune 5 -npieces 2 -numpcx 1 -numpcy 2 -ll:csize 8192 -ll:cpu 2 -fflow-spmd-shardsize 2 -fvectorize-unsafe 1",
+"benchmark":"pennant_fast.rg",
+"branch":"master",
+"commit":"3db013fbd0c49774bddd0a5e1d880e6ecacb985b",
+"date":"2017-12-06T02:22:54.677252",
 "host":"n0004.sapling.stanford.edu"
 }
 },
@@ -28866,6 +28906,32 @@
 "branch":"docker-snapshot",
 "commit":"3db013fbd0c49774bddd0a5e1d880e6ecacb985b",
 "date":"2017-12-06T01:24:43.504565",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"1.034"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"master",
+"commit":"3db013fbd0c49774bddd0a5e1d880e6ecacb985b",
+"date":"2017-12-06T02:20:55.193268",
+"host":"n0004.sapling.stanford.edu"
+}
+},
+{
+"measurements":{
+"time_seconds":"3.312"
+},
+"metadata":{
+"argv":"-l 10 -p 2 -npp 2500 -wpp 10000 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"master",
+"commit":"3db013fbd0c49774bddd0a5e1d880e6ecacb985b",
+"date":"2017-12-06T02:20:51.342187",
 "host":"n0004.sapling.stanford.edu"
 }
 }
