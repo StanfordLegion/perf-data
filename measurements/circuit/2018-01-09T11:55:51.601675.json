@@ -1,0 +1,1 @@
+{"measurements": {"time_seconds": "1.482"}, "metadata": {"benchmark": "circuit", "argv": ["-l", "10", "-p", "100", "-npp", "2", "-wpp", "4", "-ll:cpu", "2"], "host": "n0004.sapling.stanford.edu", "branch": "memoize", "date": "2018-01-09T11:55:51.601675", "commit": "93233136fa2696034092eef9c9693d76e50f5cce"}}
