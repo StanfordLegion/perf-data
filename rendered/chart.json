@@ -1679,7 +1679,8 @@
 "d8cdc659e40e3fb43ff23f1e361a109459c2a9b2",
 "a0fe677fd87747b18592bfe7e4b54f953c05bc29",
 "e4a984adb8f069a2168115f61180f52b72259ec2",
-"df208da34941bc76743e2d50dd1627eeebcc16ca"
+"df208da34941bc76743e2d50dd1627eeebcc16ca",
+"d3bce0004bb8dea2e784b8d32849283d635e9784"
 ],
 "python-oldpart":[
 "7ff452836277fa9ac94f48fdbad8823f71b4e569"
@@ -114430,6 +114431,34 @@
 },
 {
 "measurements":{
+"time_seconds":"11.792736"
+},
+"metadata":{
+"argv":"-l 10 -p 2 -npp 2500 -wpp 10000 -ll:csize 8192 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"python",
+"commit":"d3bce0004bb8dea2e784b8d32849283d635e9784",
+"date":"2018-02-05T19:29:41.960555",
+"host":"n0004.sapling.stanford.edu",
+"nodes":1
+}
+},
+{
+"measurements":{
+"time_seconds":"0.924517"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2 -fflow-spmd-shardsize 2",
+"benchmark":"circuit_sparse.rg",
+"branch":"python",
+"commit":"d3bce0004bb8dea2e784b8d32849283d635e9784",
+"date":"2018-02-05T19:29:55.304688",
+"host":"n0004.sapling.stanford.edu",
+"nodes":1
+}
+},
+{
+"measurements":{
 "time_seconds":"15.647003"
 },
 "metadata":{
@@ -114438,6 +114467,20 @@
 "branch":"master",
 "commit":"d3bce0004bb8dea2e784b8d32849283d635e9784",
 "date":"2018-02-04T21:45:30.732104",
+"host":"n0004.sapling.stanford.edu",
+"nodes":1
+}
+},
+{
+"measurements":{
+"time_seconds":"23.257603"
+},
+"metadata":{
+"argv":"pennant.tests/sedovbig3x30/sedovbig.pnt -seq_init 0 -par_init 1 -print_ts 1 -prune 5 -npieces 2 -numpcx 1 -numpcy 2 -ll:csize 8192 -ll:cpu 2 -fflow-spmd-shardsize 2 -fvectorize-unsafe 1",
+"benchmark":"pennant_fast.rg",
+"branch":"python",
+"commit":"d3bce0004bb8dea2e784b8d32849283d635e9784",
+"date":"2018-02-05T19:31:13.366942",
 "host":"n0004.sapling.stanford.edu",
 "nodes":1
 }
@@ -114458,6 +114501,20 @@
 },
 {
 "measurements":{
+"time_seconds":"0.913"
+},
+"metadata":{
+"argv":"-l 10 -p 100 -npp 2 -wpp 4 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"python",
+"commit":"d3bce0004bb8dea2e784b8d32849283d635e9784",
+"date":"2018-02-05T19:29:17.824151",
+"host":"n0004.sapling.stanford.edu",
+"nodes":1
+}
+},
+{
+"measurements":{
 "time_seconds":"5.884"
 },
 "metadata":{
@@ -114466,6 +114523,20 @@
 "branch":"master",
 "commit":"d3bce0004bb8dea2e784b8d32849283d635e9784",
 "date":"2018-02-04T21:44:58.242511",
+"host":"n0004.sapling.stanford.edu",
+"nodes":1
+}
+},
+{
+"measurements":{
+"time_seconds":"3.258"
+},
+"metadata":{
+"argv":"-l 10 -p 2 -npp 2500 -wpp 10000 -ll:csize 8192 -ll:cpu 2",
+"benchmark":"circuit",
+"branch":"python",
+"commit":"d3bce0004bb8dea2e784b8d32849283d635e9784",
+"date":"2018-02-05T19:29:14.154051",
 "host":"n0004.sapling.stanford.edu",
 "nodes":1
 }
