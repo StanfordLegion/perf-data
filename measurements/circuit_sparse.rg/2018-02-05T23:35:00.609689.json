@@ -1,0 +1,1 @@
+{"measurements": {"time_seconds": "0.916937"}, "metadata": {"benchmark": "circuit_sparse.rg", "argv": ["-l", "10", "-p", "100", "-npp", "2", "-wpp", "4", "-ll:cpu", "2", "-fflow-spmd-shardsize", "2"], "host": "n0004.sapling.stanford.edu", "branch": "memoize", "date": "2018-02-05T23:35:00.609689", "commit": "d1e9105be1752b1dd6dd0418a4b48a11de694286", "nodes": 1}}
