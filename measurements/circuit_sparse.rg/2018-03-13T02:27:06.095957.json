@@ -1,0 +1,1 @@
+{"measurements": {"time_seconds": "1.242005"}, "metadata": {"benchmark": "circuit_sparse.rg", "argv": ["-l", "10", "-p", "100", "-npp", "2", "-wpp", "4", "-ll:cpu", "2", "-fflow-spmd-shardsize", "2"], "host": "n0004.sapling.stanford.edu", "branch": "nopaint", "date": "2018-03-13T02:27:06.095957", "commit": "5a8abfbcc84b2e3ebac4e233efdc1ec28c00ae75", "nodes": 1}}
