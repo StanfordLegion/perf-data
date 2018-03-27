@@ -1,0 +1,1 @@
+{"measurements": {"time_seconds": "0.862"}, "metadata": {"benchmark": "circuit", "argv": ["-l", "10", "-p", "100", "-npp", "2", "-wpp", "4", "-ll:cpu", "2"], "host": "n0004.sapling.stanford.edu", "branch": "tracing-sc18-barrier-fix", "date": "2018-03-27T05:17:18.354512", "commit": "04a14e28213264db9ffd88ff3fdd2a8f25b8ce35", "nodes": 1}}
