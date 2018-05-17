@@ -1,0 +1,1 @@
+{"measurements": {"time_seconds": "35.175"}, "metadata": {"benchmark": "circuit", "argv": ["-l", "10", "-p", "24", "-npp", "2500", "-wpp", "10000", "-ll:csize", "8192", "-ll:cpu", "12"], "host": "titan.ccs.ornl.gov", "branch": "master", "date": "2018-05-17T15:09:59.817823", "commit": "249655b05598eb4642a71798b862e1a080c3afde", "nodes": 2}}
