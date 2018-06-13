@@ -1,0 +1,1 @@
+{"measurements": {"time_seconds": "0.803"}, "metadata": {"benchmark": "circuit", "argv": ["-l", "10", "-p", "100", "-npp", "2", "-wpp", "4", "-ll:cpu", "2"], "host": "n0002.sapling.stanford.edu", "branch": "compile-time-opt-rebase-4", "date": "2018-06-13T11:54:21.418803", "commit": "24c6d2c1e735780df7c6fd2218e604c25c28529d", "nodes": 1}}
